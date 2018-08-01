@@ -1672,7 +1672,8 @@ var CitiesComponent = (function () {
             language: 'eng',
             locationattributes: 'none,ar',
             responseattributes: 'none',
-            addressattributes: 'none,city,county'
+            addressattributes: 'none,city,county',
+            useCIT: true
         };
         function onSuccess(result) {
             var location = result.Response.View[0].Result[0];
