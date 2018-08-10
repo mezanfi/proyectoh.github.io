@@ -597,7 +597,8 @@ var CitiesComponent = (function () {
         this.CitiesService = CitiesService;
         this.platform = new H.service.Platform({
             'app_id': 'TvLRh302Uii5r4PkDhqL',
-            'app_code': '-1IQ506Zwd4DnuzLwLWYTw'
+            'app_code': '-1IQ506Zwd4DnuzLwLWYTw',
+            'useHTTPS': true
         });
     }
     CitiesComponent.prototype.ngOnInit = function () {
@@ -983,7 +984,8 @@ var TablaComponent = (function () {
         this.citiesDistance = new Map();
         this.platform = new H.service.Platform({
             'app_id': 'TvLRh302Uii5r4PkDhqL',
-            'app_code': '-1IQ506Zwd4DnuzLwLWYTw'
+            'app_code': '-1IQ506Zwd4DnuzLwLWYTw',
+            'useHTTPS': true
         });
     }
     TablaComponent.prototype.ngOnInit = function () {
