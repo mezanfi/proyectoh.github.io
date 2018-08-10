@@ -697,7 +697,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/distance/distance.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p-checkbox label=\"Search by max distance: {{distance}} km\" [(ngModel)]=\"filter\"\nbinary=\"true\" (onChange)=\"onCheckboxChange($event)\" [disabled]=\"disableFilter\"></p-checkbox>\n<p-slider [disabled]=\"disableSlider\" [(ngModel)]=\"distance\" [max]=\"100\" [style]=\"{'width':'50%'}\"\n(onSlideEnd)=\"handleSliderChange($event)\"></p-slider>\n\n"
+module.exports = "<p-checkbox label=\"Search by max distance: {{distance}} km\" [(ngModel)]=\"filter\"\nbinary=\"true\" (onChange)=\"onCheckboxChange($event)\" [disabled]=\"disableFilter\"></p-checkbox>\n<p-slider [disabled]=\"disableSlider\" [(ngModel)]=\"distance\" [max]=\"100\" [style]=\"{'width':'50%'}\"\n(onSlideEnd)=\"handleSliderChange($event)\" (onChange)=\"handleSliderChange($event)\"></p-slider>\n\n"
 
 /***/ }),
 
